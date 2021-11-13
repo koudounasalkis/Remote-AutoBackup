@@ -1,5 +1,5 @@
 # Remote-AutoBackup
-Programmazione di Sistema - Project
+Programmazione di Sistema - Project in collaboration with Matteo Abbamonte.
 
 ## Project summary
 The	project	aims at	building a client-server system that performs an incremental back-up of the content of a folder (and all its sub-folders accordingly) on the local computer onto a remote server. Once launched, the system will operate as a background service, keeping the content of the configured folder in sync with the remote copy: whenever the monitored content changes (new files are added, existing ones are changed and/or removed), suitable command will be sent across the network in order to replicate the changes on the other side. In case of transient errors (network portioning or failure of the remote server), the system will	keep on monitoring the evolution of the local folder and try to sync again as soon as the transient error condition vanishes).	
